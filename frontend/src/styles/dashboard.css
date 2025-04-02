@@ -1,0 +1,26 @@
+/* .home-page {
+    /* height: 100vh; */
+    /* background: linear-gradient(to bottom, white 80%, #00a556 20%); */
+    /* margin-top: 6px; */
+/* } */ 
+body{
+    background-color: #030712;
+}
+.card{
+    width: 16vw;
+    height: 30vh;
+    background-color:white;
+    border-width : 1px;
+    border-radius :25px ;
+    /* border-bottom-right-radius :25px ; */
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3); 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.cardInfo {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

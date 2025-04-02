@@ -6,6 +6,8 @@ interface InputProps {
   value: string;
   onChange: (e: React.ChangeEvent<HTMLInputElement>) => void;
   placeholder?: string; 
+ 
+  
 }
 
 const Input: React.FC<InputProps> = ({ label, type = "text", value, onChange, placeholder }) => {
@@ -18,6 +20,8 @@ const Input: React.FC<InputProps> = ({ label, type = "text", value, onChange, pl
         onChange={onChange}
         placeholder={placeholder}
         className="w-full p-2 border rounded-md focus:outline-none focus:ring-2 focus:ring-green-400"
+        accept="image/*,.pdf"
+        required
       />
     </div>
   );

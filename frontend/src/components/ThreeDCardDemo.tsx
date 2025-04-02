@@ -15,7 +15,7 @@ export function ThreeDCardDemo({ title, para, img, onClick }: ThreeDCardDemoProp
     <CardContainer className="inter-var  ">
       <CardBody
         onClick={onClick}
-        className="cursor-pointer bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-[#e6c979] dark:border-black/[0.2] border-black/[0.1] w-auto sm:w-[25rem] h-[65vh] rounded-xl p-6 border relative"
+        className="cursor-pointer bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/[0.1] dark:bg-[#e6c979] dark:border-black/[0.2] border-black/[0.1] w-auto sm:w-[25rem] h-[65vh] rounded-xl p-6 border"
       >
         <CardItem translateZ="100" className="w-full mt-4">
           <img

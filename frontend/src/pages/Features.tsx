@@ -23,7 +23,7 @@ function Features() {
       title: "Get your doubts cleared by uploading a document",
       para: "AI-powered Fertilizer Recommendation on our website suggests the best fertilizers based on soil data and crop type.",
       img: "src/assets/ferti.jpg",
-      navigateTo: () => navigate("/fertilizers"),
+      navigateTo: () => navigate("/chatSupport"),
     },
    
   ];

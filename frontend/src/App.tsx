@@ -3,7 +3,9 @@ import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import Features from './pages/Features';
 import PestDetection from './components/PestDetection';
-import FertilizerRecommendation from './components/FertilizerRecommendation';
+//import FertilizerRecommendation from './components/FertilizerRecommendation';
+import ChatSupport from './components/chatSupport';
+
 
 // import Settings from './pages/Settings';
 
@@ -12,10 +14,12 @@ function App() {
         <Router>
             <Navbar />
             <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/features" element={<Features />} />
+                <Route path="/" element={<Home/>} />
+                <Route path="/features" element={<Features/>} />
+               
                 <Route path="/pest-detection" element={<PestDetection />} />
-                <Route path="/fertilizers" element={<FertilizerRecommendation />} />
+           
+                <Route path='/chatSupport' element={<ChatSupport/>}/>
                 {/* <Route path="/pest-detection" element={<PestDetection />} /> */}
 
 

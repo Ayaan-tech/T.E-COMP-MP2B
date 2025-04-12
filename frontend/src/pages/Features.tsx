@@ -20,10 +20,16 @@ function Features() {
     //   navigateTo: () => navigate("/wholesale-price"),
     // },
     {
-      title: "Get your doubts cleared by uploading a document",
+      title: "Fertilizer Recommendation",
       para: "AI-powered Fertilizer Recommendation on our website suggests the best fertilizers based on soil data and crop type.",
       img: "src/assets/ferti.jpg",
       navigateTo: () => navigate("/fertilizers"),
+    },
+    {
+      title: "Crop Recommendation",
+      para: "AI-powered Crop Recommendation on our website suggests the best crop",
+      img: "src/assets/wholesale.jpg",
+      navigateTo: () => navigate("/crop"),
     },
    
   ];

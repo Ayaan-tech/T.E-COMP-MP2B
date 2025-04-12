@@ -1,7 +1,8 @@
 [
     {
-        "temperature": 29.3,
+        "temperature": 55,
         "humidity": 75.9,
+        "soil_moisture": 0.6,
         "timestamp":"2025-03-27 12:52:51" 
 
     }

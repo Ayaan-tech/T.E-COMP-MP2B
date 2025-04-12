@@ -4,7 +4,7 @@ import Home from './pages/Home';
 import Features from './pages/Features';
 import PestDetection from './components/PestDetection';
 import FertilizerRecommendation from './components/FertilizerRecommendation';
-
+import CropRecommendation from './components/CropRecommendation'
 // import Settings from './pages/Settings';
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
                 <Route path="/features" element={<Features />} />
                 <Route path="/pest-detection" element={<PestDetection />} />
                 <Route path="/fertilizers" element={<FertilizerRecommendation />} />
-                {/* <Route path="/pest-detection" element={<PestDetection />} /> */}
+                <Route path="/crop" element={<CropRecommendation />} />
 
 
                 {/* <Route path="/settings" element={<Settings />} /> */}

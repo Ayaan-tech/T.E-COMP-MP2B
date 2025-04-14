@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, {  useState } from "react";
 import axios from "axios";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect"
  
@@ -37,6 +37,7 @@ function FertilizerRecommendation() {
       setFertilizer(predictedFertilizer);
       setRemark(predictedRemark);
     } catch (err) {
+      console.error("Error fetching recommendation:", err);
       setError("Failed to fetch recommendation. Please try again.");
     } finally {
       setLoading(false);

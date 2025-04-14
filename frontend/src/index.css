@@ -122,3 +122,35 @@
     @apply bg-background text-foreground;
   }
 }
+.badge-success {
+  background-color: #22c55e;
+  color: white;
+}
+
+.badge-warning {
+  background-color: #f59e0b;
+  color: white;
+}
+
+.badge-destructive {
+  background-color: #ef4444;
+  color: white;
+}
+
+/* Tab styling */
+.tabs-list {
+  background-color: #111111;
+  border-radius: 8px;
+  padding: 4px;
+}
+
+.tab-trigger {
+  color: #a1a1a1;
+  padding: 8px 16px;
+  border-radius: 6px;
+}
+
+.tab-trigger[data-state="active"] {
+  background-color: #1f1f1f;
+  color: white;
+}

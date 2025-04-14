@@ -26,6 +26,7 @@ function CropRecommendation() {
         setTemperature(latest.temperature);
         setHumidity(latest.humidity);
       } catch (err) {
+        console.error("Error fetching sensor data:", err);
         setError("Failed to fetch sensor data.");
       }
     };
@@ -60,6 +61,7 @@ function CropRecommendation() {
 
       setRecommendedCrop(response.data.recommended_crop);
     } catch (err) {
+      console.error("Error fetching crop recommendation:", err);
       setError("Prediction failed. Please try again.");
     } finally {
       setLoading(false);

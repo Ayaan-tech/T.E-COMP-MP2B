@@ -5,6 +5,7 @@ import Features from './pages/Features';
 import PestDetection from './components/PestDetection';
 import FertilizerRecommendation from './components/FertilizerRecommendation';
 import CropRecommendation from './components/CropRecommendation'
+import Dashboard from './pages/Dashboard';
 // import Settings from './pages/Settings';
 
 function App() {
@@ -17,6 +18,7 @@ function App() {
                 <Route path="/pest-detection" element={<PestDetection />} />
                 <Route path="/fertilizers" element={<FertilizerRecommendation />} />
                 <Route path="/crop" element={<CropRecommendation />} />
+                <Route path='/dashboard' element={<Dashboard/>}/>
 
 
                 {/* <Route path="/settings" element={<Settings />} /> */}

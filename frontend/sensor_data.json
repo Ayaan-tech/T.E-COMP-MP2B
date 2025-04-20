@@ -1,0 +1,230 @@
+[
+    {
+        "temperature": 27.1,
+        "humidity": 54.0,
+        "soil_moisture": 0,
+        "timestamp": "2025-04-19 16:39:46"
+    },
+    {
+        "temperature": 27.1,
+        "humidity": 53.9,
+        "soil_moisture": 0,
+        "timestamp": "2025-04-19 16:41:21"
+    },
+    {
+        "temperature": 27.2,
+        "humidity": 54.8,
+        "soil_moisture": 0,
+        "timestamp": "2025-04-19 16:42:45"
+    },
+    {
+        "temperature": 27.2,
+        "humidity": 54.3,
+        "soil_moisture": 0,
+        "timestamp": "2025-04-19 16:43:45"
+    },
+    {
+        "temperature": 27.2,
+        "humidity": 54.1,
+        "soil_moisture": 0,
+        "timestamp": "2025-04-19 16:44:47"
+    },
+    {
+        "temperature": 27.2,
+        "humidity": 53.6,
+        "soil_moisture": 0,
+        "timestamp": "2025-04-19 16:45:47"
+    },
+    {
+        "temperature": 27.2,
+        "humidity": 53.7,
+        "soil_moisture": 0,
+        "timestamp": "2025-04-19 16:46:47"
+    },
+    {
+        "temperature": 27.2,
+        "humidity": 54.3,
+        "soil_moisture": 0,
+        "timestamp": "2025-04-19 16:47:47"
+    },
+    {
+        "temperature": 27.3,
+        "humidity": 54.4,
+        "soil_moisture": 0,
+        "timestamp": "2025-04-19 16:48:48"
+    },
+    {
+        "temperature": 26.1,
+        "humidity": 52.5,
+        "soil_moisture": 467,
+        "timestamp": "2025-04-19 17:05:38"
+    },
+    {
+        "temperature": 26.2,
+        "humidity": 53.4,
+        "soil_moisture": 0,
+        "timestamp": "2025-04-19 17:05:54"
+    },
+    {
+        "temperature": 26.3,
+        "humidity": 51.5,
+        "soil_moisture": 475,
+        "timestamp": "2025-04-19 17:11:28"
+    },
+    {
+        "temperature": 26.5,
+        "humidity": 52.1,
+        "soil_moisture": 0,
+        "timestamp": "2025-04-19 17:11:45"
+    },
+    {
+        "temperature": 26.6,
+        "humidity": 51.9,
+        "soil_moisture": 0,
+        "timestamp": "2025-04-19 17:12:45"
+    },
+    {
+        "temperature": 26.8,
+        "humidity": 51.3,
+        "soil_moisture": 449,
+        "timestamp": "2025-04-19 17:15:35"
+    },
+    {
+        "temperature": 26.8,
+        "humidity": 50.4,
+        "soil_moisture": 0,
+        "timestamp": "2025-04-19 17:16:35"
+    },
+    {
+        "temperature": 26.8,
+        "humidity": 50.6,
+        "soil_moisture": 0,
+        "timestamp": "2025-04-19 17:17:35"
+    },
+    {
+        "temperature": 26.8,
+        "humidity": 50.8,
+        "soil_moisture": 0,
+        "timestamp": "2025-04-19 17:18:35"
+    },
+    {
+        "temperature": 26.8,
+        "humidity": 51.3,
+        "soil_moisture": 0,
+        "timestamp": "2025-04-19 17:19:36"
+    },
+    {
+        "temperature": 26.7,
+        "humidity": 51.3,
+        "soil_moisture": 0,
+        "timestamp": "2025-04-19 17:20:38"
+    },
+    {
+        "temperature": 26.8,
+        "humidity": 51.3,
+        "soil_moisture": 0,
+        "timestamp": "2025-04-19 17:21:38"
+    },
+    {
+        "temperature": 26.8,
+        "humidity": 51.3,
+        "soil_moisture": 0,
+        "timestamp": "2025-04-19 17:22:38"
+    },
+    {
+        "temperature": 26.9,
+        "humidity": 51.6,
+        "soil_moisture": 143,
+        "timestamp": "2025-04-19 17:25:01"
+    },
+    {
+        "temperature": 26.8,
+        "humidity": 51.0,
+        "soil_moisture": 132,
+        "timestamp": "2025-04-19 17:26:02"
+    },
+    {
+        "temperature": 26.8,
+        "humidity": 50.7,
+        "soil_moisture": 160,
+        "timestamp": "2025-04-19 17:27:02"
+    },
+    {
+        "temperature": 26.7,
+        "humidity": 50.6,
+        "soil_moisture": 0,
+        "timestamp": "2025-04-19 17:28:03"
+    },
+    {
+        "temperature": 26.7,
+        "humidity": 50.6,
+        "soil_moisture": 26,
+        "timestamp": "2025-04-19 17:29:03"
+    },
+    {
+        "temperature": 26.9,
+        "humidity": 50.5,
+        "soil_moisture": 31,
+        "timestamp": "2025-04-19 17:30:03"
+    },
+    {
+        "temperature": 27.3,
+        "humidity": 50.8,
+        "soil_moisture": 149,
+        "timestamp": "2025-04-19 17:31:03"
+    },
+    {
+        "temperature": 27.8,
+        "humidity": 51.4,
+        "soil_moisture": 0,
+        "timestamp": "2025-04-19 17:32:04"
+    },
+    {
+        "temperature": 28.1,
+        "humidity": 51.5,
+        "soil_moisture": 144,
+        "timestamp": "2025-04-19 17:33:04"
+    },
+    {
+        "temperature": 28.5,
+        "humidity": 52.9,
+        "soil_moisture": 0,
+        "timestamp": "2025-04-19 17:34:05"
+    },
+    {
+        "temperature": 28.7,
+        "humidity": 56.3,
+        "soil_moisture": 134,
+        "timestamp": "2025-04-19 17:35:06"
+    },
+    {
+        "temperature": 29.3,
+        "humidity": 62.7,
+        "soil_moisture": 150,
+        "timestamp": "2025-04-19 17:36:01"
+    },
+    {
+        "temperature": 29.9,
+        "humidity": 63.3,
+        "soil_moisture": 0,
+        "timestamp": "2025-04-19 17:36:31"
+    },
+    {
+        "temperature": 30.0,
+        "humidity": 63.3,
+        "soil_moisture": 154,
+        "timestamp": "2025-04-19 17:37:02"
+    },
+    {
+        "temperature": 30.2,
+        "humidity": 63.3,
+        "soil_moisture": 0,
+        "timestamp": "2025-04-19 17:37:32"
+    },
+    {
+        "temperature": 30.2,
+        "humidity": 63.5,
+        "soil_moisture": 154,
+        "timestamp": "2025-04-19 17:38:02"
+    }
+]

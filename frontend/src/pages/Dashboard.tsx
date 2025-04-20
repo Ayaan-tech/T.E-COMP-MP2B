@@ -3,7 +3,7 @@ import React from 'react'
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs'
 import { ModelTable } from '@/components/dashboard/modelTable'
 import ModelPerformance from '@/components/dashboard/modelPerformance'
-import ModelMatrix from '@/components/dashboard/modelMatrix'
+
 import MorphingText from '@/components/eldoraui/morphingText'
 
 const Dashboard = () => {
@@ -29,8 +29,7 @@ const Dashboard = () => {
         <TabsList className="bg-zinc-900 border border-zinc-800">
           <TabsTrigger value="models" className="data-[state=active]:bg-black data-[state=active]:text-white text-zinc-400">Models</TabsTrigger>
           <TabsTrigger value="performance" className="data-[state=active]:bg-black data-[state=active]:text-white text-zinc-400">Performance</TabsTrigger>
-          <TabsTrigger value="confusion" className="data-[state=active]:bg-black data-[state=active]:text-white text-zinc-400">Confusion Matrix</TabsTrigger>
-          <TabsTrigger value="usage" className="data-[state=active]:bg-black data-[state=active]:text-white text-zinc-400">Usage Stats</TabsTrigger>
+        
         </TabsList>
         <TabsContent value="models" className="mt-4">
           <ModelTable/>
@@ -38,12 +37,7 @@ const Dashboard = () => {
         <TabsContent value="performance" className="mt-4">
           <ModelPerformance />
         </TabsContent>
-        <TabsContent value="confusion" className="mt-4">
-          <ModelMatrix />
-        </TabsContent>
-        <TabsContent value="usage" className="mt-4">
-          {/* Add Usage Stats component here */}
-        </TabsContent>
+       
       </Tabs>
     </div>
   )

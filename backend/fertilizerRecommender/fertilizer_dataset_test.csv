@@ -1,0 +1,39 @@
+Temperature,Moisture,Rainfall,PH,Nitrogen,Phosphorous,Potassium,Carbon,Soil,Crop,Fertilizer,Remark
+27.1,0.410859,322.53,5.52,118.77,98.58,33.93,2.273714,Peaty Soil,cotton,Balanced NPK Fertilizer,Enhances organic matter and improves soil structure.
+27.1,0.366252,316.05,8.08,28.95,23.2,197.7,1.401001,Silty Soil,blackgram,Organic Fertilizer,Enhances organic matter and improves soil structure.
+27.2,0.464575,125.7,7.33,102.94,61.22,159.93,1.317912,Clay Soil,orange,Balanced NPK Fertilizer,Improves water retention in dry soils.
+27.2,0.488826,212.89,6.76,55.69,112.04,131.35,1.038751,Peaty Soil,watermelon,Organic Fertilizer,"Provides a balanced mix of nitrogen, phosphorus, and potassium."
+27.2,0.24181,217.82,6.15,137.88,135.7,192.47,1.997199,Peaty Soil,coconut,Organic Fertilizer,"Provides a balanced mix of nitrogen, phosphorus, and potassium."
+27.2,0.222431,237.25,7.09,116.05,72.43,118.74,0.774051,Sandy Soil,watermelon,Organic Fertilizer,"Provides a balanced mix of nitrogen, phosphorus, and potassium."
+27.2,0.258303,192.84,6.95,50.67,76.88,107.88,2.290139,Clay Soil,papaya,Organic Fertilizer,"Provides a balanced mix of nitrogen, phosphorus, and potassium."
+27.2,0.627682,250.45,7.27,25.31,71.33,68.81,1.654967,Silty Soil,grapes,Organic Fertilizer,Enhances organic matter and improves soil structure.
+27.3,0.707362,316.52,5.6,132.33,113.25,195.75,2.139076,Peaty Soil,mango,Organic Fertilizer,"Provides a balanced mix of nitrogen, phosphorus, and potassium."
+26.1,0.4565,236.3,6.88,60.74,124.97,17.03,1.137721,Silty Soil,jute,Organic Fertilizer,"Enhances fertility naturally, ideal for peaty soils."
+26.2,0.365909,231.6,7.2,128.61,41.23,199.93,1.367685,Clay Soil,mango,Organic Fertilizer,"Enhances fertility naturally, ideal for peaty soils."
+26.3,0.464321,221.34,6.51,59.63,82.31,82.64,2.456629,Peaty Soil,chickpea,Organic Fertilizer,Improves water retention in dry soils.
+26.5,0.476318,328.51,6.84,71.21,8.32,145.03,0.961543,Peaty Soil,banana,Organic Fertilizer,Enhances organic matter and improves soil structure.
+26.6,0.355991,113.79,6.87,94.01,100.65,118.97,1.109639,Sandy Soil,rice,Water Retaining Fertilizer,Improves water retention in dry soils.
+26.8,0.438905,248.57,6.6,54.59,80.67,94.97,1.751255,Silty Soil,pigeonpeas,Water Retaining Fertilizer,Improves water retention in dry soils.
+26.8,0.44642,230.59,5.52,122.4,79.26,76.01,2.259175,Loamy Soil,kidneybeans,Water Retaining Fertilizer,"Provides a balanced mix of nitrogen, phosphorus, and potassium."
+26.8,0.452128,286.03,5.7,112.69,26.78,97.49,1.457279,Sandy Soil,papaya,Compost,Improves water retention in dry soils.
+26.8,0.229378,194.48,7.69,63.94,149.99,144.17,1.576984,Clay Soil,banana,Balanced NPK Fertilizer,"Provides a balanced mix of nitrogen, phosphorus, and potassium."
+26.8,0.763221,236.91,7.07,55.55,115.32,173.17,1.361459,Silty Soil,coffee,Organic Fertilizer,Improves water retention in dry soils.
+26.7,0.789041,183.52,5.54,112.77,117.1,63.75,2.32729,Loamy Soil,rice,Compost,Enhances organic matter and improves soil structure.
+26.8,0.773403,324.32,7.39,22.98,54.5,195.17,0.912951,Silty Soil,rice,Compost,"Provides a balanced mix of nitrogen, phosphorus, and potassium."
+26.8,0.423527,337.29,7.17,67.77,44.39,52.32,0.600022,Silty Soil,mothbeans,Water Retaining Fertilizer,Improves water retention in dry soils.
+26.9,0.139785,125.98,7.52,122.07,5.42,104.15,0.505551,Loamy Soil,orange,Water Retaining Fertilizer,Enhances organic matter and improves soil structure.
+26.8,0.129032,254.31,7.14,138.0,142.76,33.55,1.392594,Clay Soil,watermelon,Water Retaining Fertilizer,Improves water retention in dry soils.
+26.8,0.156403,203.44,7.49,38.35,11.96,55.54,0.53141,Clay Soil,muskmelon,Organic Fertilizer,Enhances organic matter and improves soil structure.
+26.7,0.688484,349.84,6.19,123.58,59.57,102.2,1.835379,Sandy Soil,banana,Balanced NPK Fertilizer,"Provides a balanced mix of nitrogen, phosphorus, and potassium."
+26.7,0.025415,127.44,5.95,77.65,149.33,195.89,1.990175,Silty Soil,apple,Water Retaining Fertilizer,Improves water retention in dry soils.
+26.9,0.030303,102.48,7.42,45.48,91.48,133.36,1.419506,Silty Soil,cotton,Balanced NPK Fertilizer,"Enhances fertility naturally, ideal for peaty soils."
+27.3,0.14565,254.34,8.16,132.58,133.97,45.41,2.02732,Loamy Soil,pomegranate,Organic Fertilizer,"Enhances fertility naturally, ideal for peaty soils."
+27.8,0.251677,233.29,5.64,89.13,82.82,61.25,1.971928,Silty Soil,pomegranate,Water Retaining Fertilizer,"Provides a balanced mix of nitrogen, phosphorus, and potassium."
+28.1,0.140762,346.48,6.36,91.62,128.0,8.82,1.169248,Silty Soil,cotton,Organic Fertilizer,"Enhances fertility naturally, ideal for peaty soils."
+28.5,0.404779,190.3,8.39,123.37,130.1,25.7,1.573485,Clay Soil,mungbean,Water Retaining Fertilizer,Enhances organic matter and improves soil structure.
+28.7,0.130987,195.31,8.19,42.99,33.16,27.77,1.313476,Clay Soil,blackgram,Organic Fertilizer,"Enhances fertility naturally, ideal for peaty soils."
+29.3,0.146628,290.85,7.27,8.31,60.99,28.61,0.600703,Sandy Soil,rice,Compost,"Enhances fertility naturally, ideal for peaty soils."
+29.9,0.621992,272.58,8.34,81.05,11.02,124.26,1.181075,Clay Soil,kidneybeans,Balanced NPK Fertilizer,"Provides a balanced mix of nitrogen, phosphorus, and potassium."
+30.0,0.150538,141.97,5.86,26.75,81.42,38.25,0.411109,Peaty Soil,kidneybeans,Compost,"Enhances fertility naturally, ideal for peaty soils."
+30.2,0.523699,349.75,7.84,56.1,21.8,23.35,1.959616,Peaty Soil,pigeonpeas,Compost,"Enhances fertility naturally, ideal for peaty soils."
+30.2,0.150538,251.31,6.97,136.33,54.8,98.93,1.347335,Clay Soil,papaya,Balanced NPK Fertilizer,"Provides a balanced mix of nitrogen, phosphorus, and potassium."

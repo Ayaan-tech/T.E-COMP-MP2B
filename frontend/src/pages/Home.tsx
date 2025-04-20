@@ -81,7 +81,7 @@ function Home() {
 
   useEffect(() => {
     getMyLocationName();
-    getIotData(); // Fetch IoT data on load
+    getIotData(); 
   }, []);
 
   useEffect(() => {

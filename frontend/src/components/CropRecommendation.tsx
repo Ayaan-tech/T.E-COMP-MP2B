@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
-
+import {z} from "zod";
+import valueSchema from "@/lib/zod";
 const words = `Crop Recommendation`;
 
 function CropRecommendation() {
@@ -38,31 +39,39 @@ function CropRecommendation() {
   };
 
   const handleRecommendCrop = async () => {
-    const { N, P, K, pH, rainfall } = formData;
-    if (!N || !P || !K || !pH || !rainfall || temperature == null || humidity == null) {
-      setError("Please fill all fields and ensure sensor data is available.");
+    try {
+    const validatedData = valueSchema.safeParse({
+      N: Number(formData.N),
+      P: Number(formData.P),
+      K: Number(formData.K),
+      pH: Number(formData.pH),
+      rainfall: Number(formData.rainfall),
+    });
+    console.log(validatedData);
+    
+    if (temperature == null || humidity == null) {
+      setError("Sensor data is not available. Please try again later.");
       return;
     }
-
     setLoading(true);
     setError("");
     setRecommendedCrop("");
 
-    try {
+    
       const response = await axios.post("http://127.0.0.1:8000/crop_recommend", {
-        N: Number(N),
-        P: Number(P),
-        K: Number(K),
+        N: validatedData.data.N,
+        P: validatedData.data.P,
+        K: validatedData.data.K,
         temperature,
         humidity,
-        ph: Number(pH),
-        rainfall: Number(rainfall),
+        ph: validatedData.data.pH,
+        rainfall: validatedData.data.rainfall,
       });
 
       setRecommendedCrop(response.data.recommended_crop);
-    } catch (err) {
-      console.error("Error fetching crop recommendation:", err);
-      setError("Prediction failed. Please try again.");
+    } catch (error) {
+     console.error("Error recommending crop:", error);
+     setError(error.response?.data?.error || "An error occurred while recommending the crop.");
     } finally {
       setLoading(false);
     }
@@ -98,7 +107,12 @@ function CropRecommendation() {
           {loading ? "Loading..." : "Recommend Crop"}
         </button>
 
-        {error && <p className="text-red-600 mt-3">{error}</p>}
+
+        {error && (
+          <div className="mt-4 p-4 border border-red-600 rounded-lg bg-red-100 text-red-800 text-center">
+            {error}
+          </div>
+        )}
 
         {recommendedCrop && (
           <div className="mt-6 p-5 border rounded-lg shadow-md w-96 bg-white text-center">

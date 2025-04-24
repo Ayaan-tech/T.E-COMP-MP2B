@@ -2,6 +2,7 @@
 
 ## An Interactive Farmer-based Agricultural Solution
 
+## Abstract:
 FasalGuru is a cutting-edge agricultural solution that leverages IoT sensors and artificial intelligence to empower farmers with data-driven insights. Our platform provides a seamless, responsive, and user-friendly interface that transforms complex agricultural data into actionable recommendations.
 
 With real-time monitoring and predictive analytics, AgriSense AI  helps farmers optimize their resources, increase crop yields, and implement sustnable farming practices - all while reducing costs and environmental impact.
@@ -19,13 +20,6 @@ Receive data-driven suggestions for which crops will thrive in your specific con
 ### 3. 🐞 Pest Prevention Plan
 Stay ahead of potential pest problems with our predictive pest management system. FasalGuru identifies risk factors and provides timely alerts and treatment plans, allowing for early intervention and reduced pesticide use.
 
-## 🛠️ Technology Stack
-
-- **Frontend**: React.js, Vite, Tailwind CSS
-- **Backend**: FastApi (Python)
-- **IoT**: Custom sensor network with real-time data processing
-- **AI/ML**: Pretrained Resnet Architecture which was finetuned on Torch Configuration
-
 ## 📊 Dashboard
 
 Our intuitive dashboard presents comprehensive farm analytics at a glance:
@@ -34,13 +28,29 @@ Our intuitive dashboard presents comprehensive farm analytics at a glance:
 - Crop health indicators
 - Historical performance data
 - Recommendation summaries
+- 
+## 🛠️ Technology Stack
+
+- **Frontend**: React.js, Vite, Tailwind CSS
+- **Backend**: FastApi (Python)
+- **IoT**: Custom sensor network with real-time data processing
+- **AI/ML**: Pretrained Resnet Architecture which was finetuned on Torch Configuration
+- 
+### Project Members
+1. SHAIKH ARYAN AMJAD  [ Team Leader ] 
+2. QUASMI AYAAN AMJAD ASHFAQUE AMJAD 
+3. KHAN RAMSHA AYUB AHMED 
+4. SHAIKH RIYA ZAHID 
+
+### Project Guides
+1. PROF. MOHAMMED JUNED   [ Primary Guide ] 
 
 ## 🚀 Getting Started
 
 ### Prerequisites
-- Node.js (v14 or higher)
-- Python 3.10+
-- Git
+- Node.js (v14 or higher)(https://nodejs.org)
+- Python 3.10+ (https://www.python.org/)
+- Git(https://git-scm.com/downloads)
 
 ### Installation
 
@@ -64,7 +74,11 @@ Our intuitive dashboard presents comprehensive farm analytics at a glance:
    python app.py
    ```
    The backend API will be available at: http://localhost:8000/
-
+   
+### Subject Details
+- Class : TE (COMP) Div A - 2024-2025
+- Subject : Mini Project : 2B
+- Project Type : Mini Project
 
 ## 🤝 Contributing
 

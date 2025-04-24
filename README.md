@@ -4,8 +4,8 @@
 
 ## Abstract:
 FasalGuru is a cutting-edge agricultural solution that leverages IoT sensors and artificial intelligence to empower farmers with data-driven insights. Our platform provides a seamless, responsive, and user-friendly interface that transforms complex agricultural data into actionable recommendations.
-
-With real-time monitoring and predictive analytics, AgriSense AI  helps farmers optimize their resources, increase crop yields, and implement sustnable farming practices - all while reducing costs and environmental impact.
+With real-time monitoring and predictive analytics, FasalGuru  helps farmers optimize their resources, increase crop yields, and implement sustnable farming practices - all while reducing costs and environmental impact.
+By merging these data streams into a unified dashboard, FasalGuru delivers immediate insights and actionable recommendations, empowering farmers to implement proactive agronomic interventions rather than reactive measures. The platform’s automated analysis enhances precision in crop health assessment, optimizes water and nutrient usage, and significantly reduces the time and labor associated with manual field scouting. Moreover, detailed trend visualizations and alert notifications help stakeholders prioritize field operations, minimize yield losses, and support data-driven decision-making. With its dual focus on disease prediction and nutrient optimization, FasalGuru not only improves productivity and profitability for growers but also promotes sustainable agricultural practices that safeguard soil health and biodiversity for future seasons.
 
 ## ✨ Features
 
